@@ -13,7 +13,7 @@
     ],
     "require": {
         "composer/installers": "~1.0",
-        "october/system": "^2.0|^3.0",
+        "october/system": "^3.0",
         "barryvdh/laravel-ide-helper": "^2.12"
     },
     "minimum-stability": "dev",
