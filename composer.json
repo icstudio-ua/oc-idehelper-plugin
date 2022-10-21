@@ -11,6 +11,12 @@
             "homepage": "https://icstudio.online"
         }
     ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/icstudio-ua/oc-idehelper-plugin"
+        }
+    ],
     "require": {
         "composer/installers": "~1.0",
         "october/system": "^3.0",
@@ -18,7 +24,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "dev-dev"
+            "dev-main": "dev-main"
         }
     }
 }
