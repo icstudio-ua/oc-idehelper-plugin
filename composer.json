@@ -1,5 +1,5 @@
 {
-    "name": "icstudio/idehelper-plugin",
+    "name": "icstudio/oc-idehelper-plugin",
     "type": "october-plugin",
     "description": "OctoberCMS plugin to make development easier by providing IDE helpers",
     "homepage": "https://github.com/icstudio-ua/oc-idehelper-plugin",
