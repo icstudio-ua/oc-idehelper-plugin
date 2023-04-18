@@ -1,35 +1,39 @@
 {
-    "name": "icstudio/oc-idehelper-plugin",
-    "type": "october-plugin",
-    "description": "OctoberCMS plugin to make development easier by providing IDE helpers",
-    "homepage": "https://github.com/icstudio-ua/oc-idehelper-plugin",
-    "keywords": ["october", "octobercms", "laravel", "ide", "helper", "vscode", "phpstorm", "php"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "IC Studio",
-            "homepage": "https://icstudio.online"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/icstudio-ua/oc-idehelper-plugin"
-        }
-    ],
-    "require": {
-        "composer/installers": "~1.0",
-        "october/system": "^2.0|^3.0|^3.1|dev-develop",
-        "barryvdh/laravel-ide-helper": "^2.12"
-    },
-    "extra": {
-        "branch-alias": {
-            "main": "1.0-dev"
-        }
-    },
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true
-        }
+  "name": "icstudio/oc-idehelper-plugin",
+  "type": "october-plugin",
+  "description": "OctoberCMS plugin to make development easier by providing IDE helpers",
+  "homepage": "https://github.com/icstudio-ua/oc-idehelper-plugin",
+  "keywords": [
+    "october",
+    "octobercms",
+    "laravel",
+    "ide",
+    "helper",
+    "vscode",
+    "phpstorm",
+    "php"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "IC Studio",
+      "homepage": "https://icstudio.online"
     }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/icstudio-ua/oc-idehelper-plugin"
+    }
+  ],
+  "require": {
+    "composer/installers": "~1.0",
+    "october/system": "^2.0|^3.0|^3.1",
+    "barryvdh/laravel-ide-helper": "^2.12"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
 }
